@@ -1,0 +1,15 @@
+{
+  "title": "FireLux",
+  "name": "firelux",
+  "version": "1.0.0",
+  "description": "Changes the color temperature of browser.",
+  "main": "index.js",
+  "author": "Valentin Gunther",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "GPLv3",
+  "keywords": [
+    "FireLux"
+  ]
+}

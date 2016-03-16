@@ -1,0 +1,17 @@
+#coverTemperature {
+   height:100%;
+   width:100%;
+   background-color:#FF9329;
+   display:none;
+   position:fixed;
+   top:0;
+   left:0;
+   z-index:99999999;
+   pointer-events:none;
+}
+
+/*
+SERT PAS A GRAND CHOSE PAS PRIS EN COMPTE DANS LA PAGE
+
+Le JS modifie les propriétés: display: block / opacity: suivant le selecteur / background-color: defini dans l'interface (color picker)
+*/
