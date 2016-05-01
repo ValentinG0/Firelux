@@ -1,5 +1,4 @@
 var self = require('sdk/self');
-var { Cc, Ci, Cu, CC, Cm, components } = require('chrome');
 
 var { ToggleButton } = require('sdk/ui/button/toggle');
 var { ActionButton } = require("sdk/ui/button/action");
@@ -85,10 +84,6 @@ function handleHide() {
 panel.port.on("close_save_panel", function(data) {
   ss.storage.favoriteColourStorage = data;
   panel.hide();
-  for(var i = 0; i < tabs.length; i++)
-  {
-    tabs[i].reload();
-  }
 });
 
 //Preview settings
